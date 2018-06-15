@@ -17,6 +17,7 @@ public class FileWorks {
 	public static String[][] excelData() throws IOException{
 		String[][] data = null;
 
+		//Creating a FileInput
 		FileInputStream fis = new FileInputStream("./data/dataDoc.xlsx");
 		XSSFWorkbook wBook = new XSSFWorkbook(fis);
 		XSSFSheet wSheet = wBook.getSheet("Sheet1");

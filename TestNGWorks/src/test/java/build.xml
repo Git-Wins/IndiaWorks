@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="classes" thread-count = "3">
+	<listeners>
+	<listener class-name = "testngWorks.Listener">
+	</listener>
+	</listeners>
+  <parameter name = "url" value = "https://www.google.co.in"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="testngWorks.TestNG_One"/>
+      <class name="testngWorks.TestNG_Two"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35584" started-at="2018-06-15T14:06:29Z" finished-at="2018-06-15T14:07:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35584" started-at="2018-06-15T14:06:29Z" finished-at="2018-06-15T14:07:05Z">
+      <class name="testngWorks.TestNG_One">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="setup" is-config="true" duration-ms="16101" started-at="2018-06-15T14:06:30Z" finished-at="2018-06-15T14:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="a(java.lang.String, java.lang.String)[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="a" duration-ms="8228" started-at="2018-06-15T14:06:46Z" data-provider="excelData" finished-at="2018-06-15T14:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Man]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="teardown" is-config="true" duration-ms="1" started-at="2018-06-15T14:06:54Z" finished-at="2018-06-15T14:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="setup" is-config="true" duration-ms="5715" started-at="2018-06-15T14:06:54Z" finished-at="2018-06-15T14:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="a(java.lang.String, java.lang.String)[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="a" duration-ms="4718" started-at="2018-06-15T14:07:00Z" data-provider="excelData" finished-at="2018-06-15T14:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngWorks.TestNG_One@6a4f787b]" name="teardown" is-config="true" duration-ms="0" started-at="2018-06-15T14:07:05Z" finished-at="2018-06-15T14:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngWorks.TestNG_One -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

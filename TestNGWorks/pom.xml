@@ -45,6 +45,7 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
+						<suiteXmlFile>Suites/build.xml</suiteXmlFile>
 						<suiteXmlFile>Suites/SikuliAutomation.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>

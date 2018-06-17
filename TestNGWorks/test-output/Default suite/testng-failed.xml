@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngWorks.TestNG_One">
+      <class name="sikuliWorks.SikuliAutomation">
         <methods>
-          <include name="teardown"/>
+          <include name="toTest"/>
           <include name="setup"/>
-          <include name="a" invocation-numbers="1"/>
+          <include name="teardown"/>
+          <include name="befSetup"/>
         </methods>
-      </class> <!-- testngWorks.TestNG_One -->
+      </class> <!-- sikuliWorks.SikuliAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

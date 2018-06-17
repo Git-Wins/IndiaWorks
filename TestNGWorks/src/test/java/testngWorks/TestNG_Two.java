@@ -33,7 +33,7 @@ public class TestNG_Two {
 
 	@AfterMethod
 	public void teardown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }

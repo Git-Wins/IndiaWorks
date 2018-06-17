@@ -30,7 +30,7 @@ public class TestNG_One extends FileWorks {
 	@Test (enabled = true, dataProvider = "excelData") //invocationCount = 1, expectedExceptions = ArithmeticException.class), threadPoolSize = 4)
 	public void a(String fName, String lName) {
 		System.out.println("this is the TestNG-One-'a' method");
-		//int c = 9/0;
+		int c = 9/0;
 		driver.get("https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-en&flowName=GlifWebSignIn&flowEntry=SignUp");
 		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("firstName")));

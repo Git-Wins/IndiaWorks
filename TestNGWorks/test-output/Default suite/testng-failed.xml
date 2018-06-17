@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikuliWorks.SikuliAutomation">
+      <class name="sikuliWorks.SikuliAutomationPicCompare">
         <methods>
-          <include name="toTest"/>
-          <include name="setup"/>
-          <include name="teardown"/>
           <include name="befSetup"/>
+          <include name="toTest"/>
         </methods>
-      </class> <!-- sikuliWorks.SikuliAutomation -->
+      </class> <!-- sikuliWorks.SikuliAutomationPicCompare -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

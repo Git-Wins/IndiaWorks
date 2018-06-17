@@ -1,80 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Suite about to be run: Suite]]>
-    </line>
-    <line>
-      <![CDATA[About to start executing test...Test]]>
-    </line>
-    <line>
-      <![CDATA[Test started: toTest]]>
-    </line>
-    <line>
-      <![CDATA[Test passed: toTest]]>
-    </line>
-    <line>
-      <![CDATA[Test started: test]]>
-    </line>
-    <line>
-      <![CDATA[Test passed: test]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="19662" started-at="2018-06-17T07:37:23Z" finished-at="2018-06-17T07:37:43Z">
+  <suite name="Default suite" duration-ms="3196" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19662" started-at="2018-06-17T07:37:23Z" finished-at="2018-06-17T07:37:43Z">
-      <class name="sikuliWorks.SikuliAutomationFileUpld">
-        <test-method status="PASS" signature="befSetup(java.lang.String)[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@204f30ec]" name="befSetup" is-config="true" duration-ms="2133" started-at="2018-06-17T07:37:23Z" finished-at="2018-06-17T07:37:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[C:\\QA-Automation\\Sikuli\\]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="3196" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
+      <class name="sikuliWorks.SikuliAutomationPicCompare">
+        <test-method status="PASS" signature="toTest()[pri:0, instance:sikuliWorks.SikuliAutomationPicCompare@3bfdc050]" name="toTest" duration-ms="3136" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- befSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@204f30ec]" name="setup" is-config="true" duration-ms="6481" started-at="2018-06-17T07:37:25Z" finished-at="2018-06-17T07:37:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="toTest()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@204f30ec]" name="toTest" duration-ms="3990" started-at="2018-06-17T07:37:32Z" finished-at="2018-06-17T07:37:36Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test started: toTest]]>
-            </line>
-            <line>
-              <![CDATA[Test passed: toTest]]>
-            </line>
           </reporter-output>
         </test-method> <!-- toTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@204f30ec]" name="teardown" is-config="true" duration-ms="919" started-at="2018-06-17T07:37:36Z" finished-at="2018-06-17T07:37:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- sikuliWorks.SikuliAutomationFileUpld -->
-      <class name="sikuliWorks.SikuliAutomationNotepad">
-        <test-method status="PASS" signature="test()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@e25b2fe]" name="test" duration-ms="3831" started-at="2018-06-17T07:37:36Z" finished-at="2018-06-17T07:37:40Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test started: test]]>
-            </line>
-            <line>
-              <![CDATA[Test passed: test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@e25b2fe]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-17T07:37:36Z" finished-at="2018-06-17T07:37:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@e25b2fe]" name="teardown" is-config="true" duration-ms="2269" started-at="2018-06-17T07:37:40Z" finished-at="2018-06-17T07:37:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- sikuliWorks.SikuliAutomationNotepad -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- sikuliWorks.SikuliAutomationPicCompare -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

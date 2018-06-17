@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="path" value="C:\\QA-Automation\\Sikuli\\"/>
-  <listeners>
-    <listener class-name="sikuliWorks.Listener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikuliWorks.SikuliAutomationYoutube">
+      <class name="sikuliWorks.SikuliAutomationPicCompare">
         <methods>
           <include name="befSetup"/>
           <include name="toTest"/>
-          <include name="teardown"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- sikuliWorks.SikuliAutomationYoutube -->
+      </class> <!-- sikuliWorks.SikuliAutomationPicCompare -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

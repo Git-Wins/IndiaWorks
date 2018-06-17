@@ -1,4 +1,4 @@
-package sikuliWorks;
+  package sikuliWorks;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -25,8 +25,9 @@ public class SikuliAutomationNotepad {
 	public void test() throws FindFailed {
 		rbt.keyPress(KeyEvent.VK_WINDOWS);
 		rbt.keyPress(KeyEvent.VK_D);
+		rbt.delay(1000);
 		rbt.keyRelease(KeyEvent.VK_WINDOWS);
-		rbt.keyRelease(KeyEvent.VK_D);
+		rbt.keyRelease(KeyEvent.VK_D); //rbt.mousePress(InputEvent.button);
 
 		s.doubleClick("imgs\\Notepad.JPG");
 		//s.click("imgs\\NotepadMaxBtn.JPG");

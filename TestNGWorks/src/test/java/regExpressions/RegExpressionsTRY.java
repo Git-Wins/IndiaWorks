@@ -14,6 +14,8 @@ public class RegExpressionsTRY {
 		for(String hh : ff) {
 			System.out.print(hh);
 		}
+		
+		
 	}
 
 }

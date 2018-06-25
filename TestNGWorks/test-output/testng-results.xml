@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3196" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
+  <suite name="Default suite" duration-ms="65" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3196" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
-      <class name="sikuliWorks.SikuliAutomationPicCompare">
-        <test-method status="PASS" signature="toTest()[pri:0, instance:sikuliWorks.SikuliAutomationPicCompare@3bfdc050]" name="toTest" duration-ms="3136" started-at="2018-06-17T12:12:48Z" finished-at="2018-06-17T12:12:51Z">
+    <test name="Default test" duration-ms="65" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
+      <class name="collections.LinkedListWrks">
+        <test-method status="PASS" signature="linkdLstWrks()[pri:0, instance:collections.LinkedListWrks@26653222]" name="linkdLstWrks" duration-ms="22" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toTest -->
-      </class> <!-- sikuliWorks.SikuliAutomationPicCompare -->
+        </test-method> <!-- linkdLstWrks -->
+      </class> <!-- collections.LinkedListWrks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

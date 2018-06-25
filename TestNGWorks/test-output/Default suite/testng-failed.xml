@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikuliWorks.SikuliAutomationPicCompare">
+      <class name="collections.LinkedListWrks">
         <methods>
-          <include name="befSetup"/>
-          <include name="toTest"/>
+          <include name="linkdLstWrks"/>
         </methods>
-      </class> <!-- sikuliWorks.SikuliAutomationPicCompare -->
+      </class> <!-- collections.LinkedListWrks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

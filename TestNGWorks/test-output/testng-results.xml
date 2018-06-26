@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
+  <suite name="Default suite" duration-ms="128" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
+    <test name="Default test" duration-ms="128" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
       <class name="collections.LinkedListWrks">
-        <test-method status="PASS" signature="linkdLstWrks()[pri:0, instance:collections.LinkedListWrks@26653222]" name="linkdLstWrks" duration-ms="22" started-at="2018-06-24T15:45:01Z" finished-at="2018-06-24T15:45:01Z">
+        <test-method status="FAIL" signature="linkdLstWrks()[pri:0, instance:collections.LinkedListWrks@59f99ea]" name="linkdLstWrks" duration-ms="16" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method add(int, String) in the type List<String> is not applicable for the arguments (int)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method add(int, String) in the type List<String> is not applicable for the arguments (int)
+
+at collections.LinkedListWrks.linkdLstWrks(LinkedListWrks.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkdLstWrks -->

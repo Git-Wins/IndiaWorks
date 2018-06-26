@@ -8,7 +8,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JDBCworksNEW_FORMAT {
+public class JDBCworksNEWFRMT_Insert {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 

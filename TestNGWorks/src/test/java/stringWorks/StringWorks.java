@@ -6,8 +6,10 @@ public class StringWorks {
 
 	@Test
 	public void stringTest() {
-		String aa = "Peace";
-		StringBuffer bb = new StringBuffer(aa);
+		String aa = "Aeace";
+		String bb = "Aeace";
+		System.out.println(aa.compareTo(bb));
+	/*	StringBuffer bb = new StringBuffer(aa);
 		StringBuilder cc = new StringBuilder(aa);
 		
 		StringBuffer dd = new StringBuffer(cc);
@@ -22,6 +24,6 @@ public class StringWorks {
 		System.out.println("StringBuffer 'dd': " +dd);
 		System.out.println("StringBuilder 'ee': " +ee);
 		System.out.println("String 'ff': " +ff);
-		System.out.println("String 'gg': " +gg);
+		System.out.println("String 'gg': " +gg);*/
 	}
 }

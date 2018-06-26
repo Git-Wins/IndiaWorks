@@ -14,7 +14,7 @@ public class RegExpressionsWorks {
 		/*the following is not allowed....
 		System.out.println(name.matches("[a-zA-Z]{name.length()}"));*/
 		//to check if the String starts with 'w' or 'W' and is followed by 'inston' 
-		System.out.println(name.matches("[wW9]inston"));
+		System.out.println(name.matches("[wW]inston"));
 		//to check if the String contains 'ns' and has anything before and after the substring 'ns'
 		System.out.println(name.matches("(.*)ns(.*)"));
 		//to check if the String contains 'ns' and has just a single char in front and also just a single char follwing it
@@ -37,7 +37,7 @@ public class RegExpressionsWorks {
 		System.out.println(name.matches("[\\d](.*)"));
 		//returns true if the string does not have a char at the beginning
 		System.out.println(name.matches("[\\W](.*)"));
-		//returns true if the string does have a char at the beginning
+		//returns true if the string has a char at the beginning
 		System.out.println(name.matches("[\\w](.*)"));
 	}
 

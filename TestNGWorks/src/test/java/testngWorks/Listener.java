@@ -11,6 +11,8 @@ import org.testng.Reporter;
 
 public class Listener implements ITestListener, ISuiteListener, IInvokedMethodListener{
 
+	//Listener is not run when this file is run, as it's defined in the xml and only from there the Listeners will be activated
+	
 	public void afterInvocation(IInvokedMethod arg0, ITestResult arg1) {
 		// TODO Auto-generated method stub
 		
@@ -37,7 +39,7 @@ public class Listener implements ITestListener, ISuiteListener, IInvokedMethodLi
 	}
 
 	public void onStart(ITestContext arg0) {
-		Reporter.log("About to start executing test..." +arg0.getName(), true);
+		Reporter.log("About to start executing test!@#$%^&*()..." +arg0.getName(), true);
 		
 	}
 

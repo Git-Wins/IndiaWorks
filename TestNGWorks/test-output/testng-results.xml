@@ -1,56 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Suite about to be run: Suite]]>
+    </line>
+    <line>
+      <![CDATA[About to start executing test...Test]]>
+    </line>
+    <line>
+      <![CDATA[Test started: toTest]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: toTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: test]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: test]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
+  <suite name="Suite" duration-ms="26168" started-at="2018-06-26T07:18:39Z" finished-at="2018-06-26T07:19:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="128" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
-      <class name="collections.LinkedListWrks">
-        <test-method status="FAIL" signature="linkdLstWrks()[pri:0, instance:collections.LinkedListWrks@59f99ea]" name="linkdLstWrks" duration-ms="16" started-at="2018-06-26T05:03:09Z" finished-at="2018-06-26T05:03:09Z">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method add(int, String) in the type List<String> is not applicable for the arguments (int)
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method add(int, String) in the type List<String> is not applicable for the arguments (int)
-
-at collections.LinkedListWrks.linkdLstWrks(LinkedListWrks.java:16)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+    <test name="Test" duration-ms="26168" started-at="2018-06-26T07:18:39Z" finished-at="2018-06-26T07:19:05Z">
+      <class name="sikuliWorks.SikuliAutomationFileUpld">
+        <test-method status="PASS" signature="befSetup(java.lang.String)[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@4dfa3a9d]" name="befSetup" is-config="true" duration-ms="2330" started-at="2018-06-26T07:18:39Z" finished-at="2018-06-26T07:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\QA-Automation\\Sikuli\\]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkdLstWrks -->
-      </class> <!-- collections.LinkedListWrks -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- befSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@4dfa3a9d]" name="setup" is-config="true" duration-ms="9908" started-at="2018-06-26T07:18:41Z" finished-at="2018-06-26T07:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="toTest()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@4dfa3a9d]" name="toTest" duration-ms="4134" started-at="2018-06-26T07:18:51Z" finished-at="2018-06-26T07:18:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started: toTest]]>
+            </line>
+            <line>
+              <![CDATA[Test passed: toTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sikuliWorks.SikuliAutomationFileUpld@4dfa3a9d]" name="teardown" is-config="true" duration-ms="1023" started-at="2018-06-26T07:18:55Z" finished-at="2018-06-26T07:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sikuliWorks.SikuliAutomationFileUpld -->
+      <class name="sikuliWorks.SikuliAutomationNotepad">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@6eebc39e]" name="setup" is-config="true" duration-ms="1" started-at="2018-06-26T07:18:56Z" finished-at="2018-06-26T07:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@6eebc39e]" name="test" duration-ms="4733" started-at="2018-06-26T07:18:56Z" finished-at="2018-06-26T07:19:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started: test]]>
+            </line>
+            <line>
+              <![CDATA[Test passed: test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sikuliWorks.SikuliAutomationNotepad@6eebc39e]" name="teardown" is-config="true" duration-ms="4001" started-at="2018-06-26T07:19:01Z" finished-at="2018-06-26T07:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sikuliWorks.SikuliAutomationNotepad -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

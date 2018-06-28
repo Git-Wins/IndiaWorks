@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="collections.LinkedListWrks">
+      <class name="sikuliWorks.SikuliAutomationFileUpld">
         <methods>
-          <include name="linkdLstWrks"/>
+          <include name="toTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="befSetup"/>
         </methods>
-      </class> <!-- collections.LinkedListWrks -->
+      </class> <!-- sikuliWorks.SikuliAutomationFileUpld -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

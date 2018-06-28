@@ -16,7 +16,7 @@ public class SikuliAutomationPicCompare {
 	@Test
 	public void toTest() throws FindFailed {
 		screen = new Screen(0);
-		pattern = new Pattern("/imgs/JeffPart.JPG");
+		pattern = new Pattern("/imgs/JeffPartial.JPG");
 		expectedRegion = screen.exists(pattern);
 		if(null != expectedRegion) {
 			expectedRegion.rightClick(pattern);

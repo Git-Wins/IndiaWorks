@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="path" value="C:\\QA-Automation\\Sikuli\\"/>
+  <listeners>
+    <listener class-name="sikuliWorks.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="collections.LinkedListWrks">
+      <class name="sikuliWorks.SikuliAutomationNotepad">
         <methods>
-          <include name="linkdLstWrks"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- collections.LinkedListWrks -->
+      </class> <!-- sikuliWorks.SikuliAutomationNotepad -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
